@@ -183,8 +183,7 @@ After pasting, click **Run Locally**. Watch your virtual device execute the step
 ```yaml
 appId: com.apple.MobileAddressBook 
 ---
-- launchApp:
-    clearState: true
+- launchApp
 - tapOn: All iPhone
 - tapOn: Add
 - tapOn: First name
@@ -204,7 +203,7 @@ appId: com.apple.MobileAddressBook
 The test launches the Address Book app, adds a new contact, and saves the result.
 
 {% hint style="info" %}
-To learn more about the commands you can use to create tests, access the [Commands](https://app.gitbook.com/o/zCVYm3M93B0sOcjR1Oj4/s/HqSeOOzxPCLfnK9YzOkb/ "mention")page.
+To learn more about the commands you can use to create tests, access the [Commands](https://app.gitbook.com/o/zCVYm3M93B0sOcjR1Oj4/s/HqSeOOzxPCLfnK9YzOkb/ "mention") page.
 
 To learn about how you can structure tests, also referred to in Maestro as Flows, access the [Flows](https://app.gitbook.com/o/zCVYm3M93B0sOcjR1Oj4/s/mS3lsb9jRwfRHqddeRXG/ "mention").
 {% endhint %}
